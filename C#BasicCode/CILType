@@ -1,0 +1,64 @@
+using System;
+class CILType
+{
+static void Main()
+{
+ // Interger Data Types 
+ byte b = 0;
+ short s = 0;
+ long l = 0;
+ int I = 0;
+ sbyte sb = 0;
+ ushort us = 0;
+ ulong ul = 0;
+ uint ui = 0;
+// Decimal type of data type
+float f = 0.0f;
+double d = 0;
+decimal de = 0.0m;
+// Boolean Type
+bool bl = true;
+//DateTime Type
+DateTime dt = DateTime.Now;
+//Char Type 
+char ch = 'A';
+string str = "Name";
+//GUID Type 
+Guid g = Guid.NewGuid();
+//Base Type
+object obj = new object();
+
+//Print All Those Data Type CIL Type
+// We Have One Method GetType() using this method we can print the type
+Console.WriteLine(b.GetType());
+Console.WriteLine(s.GetType());
+
+Console.WriteLine(l.GetType());
+
+Console.WriteLine(I.GetType());
+
+Console.WriteLine(sb.GetType());
+
+Console.WriteLine(us.GetType());
+
+Console.WriteLine(ul.GetType());
+
+Console.WriteLine(ui.GetType());
+
+Console.WriteLine(f.GetType());
+
+Console.WriteLine(d.GetType());
+Console.WriteLine(de.GetType());
+
+Console.WriteLine(bl.GetType());
+
+Console.WriteLine(dt.GetType());
+
+Console.WriteLine(ch.GetType());
+
+Console.WriteLine(str.GetType());
+
+Console.WriteLine(g.GetType());
+Console.WriteLine(obj.GetType());
+}
+}
