@@ -1,0 +1,12 @@
+using System;
+class StringInterpolation()
+{
+ static void Main()
+{
+ Console.Write("Enter Your Name");
+ string name = Console.ReadLine();
+ Console.Write("Enter Your Age");
+ int Age = int.Parse(Console.ReadLine());
+ Console.WriteLine($"My Name is {name} My Age is{Age}");
+}
+}
