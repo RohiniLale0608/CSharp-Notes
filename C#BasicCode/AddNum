@@ -1,0 +1,17 @@
+using System;
+class AddNums
+{
+static void Main()
+{
+ Console.Clear();
+ Console.Write("Enter 1st number: ");
+// 1] ReadLine()is a Method is Used to Read the Input from the user 2] waits at the command prompt for the user to enter value
+ string s1 = Console.ReadLine();
+ double d1 = Convert.ToDouble(s1);
+ Console.Write("Enter 2nd number:  ");
+ string s2 = Console.ReadLine();
+ double d2 = double.Parse(s2);
+ double d3 = d1 + d2;
+ Console.WriteLine($"Sum of{d1}&{d2} is:{d3}");
+}
+}
