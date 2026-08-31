@@ -1,0 +1,19 @@
+// Using Users Input
+using System;
+class ArithmeticOperators1()
+{
+ static void Main()
+{
+ Console.Write("Enter First Number:  ");
+ // When you type something in the console, Console.ReadLine() always reads it as a string, no 
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter Second Number:  ");
+int b = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"Addition: {a+b}");
+Console.WriteLine($"Substraction: {a-b}");
+Console.WriteLine($"Multiplication: {a*b}");
+Console.WriteLine($"Division: {a/b}");
+Console.WriteLine($"Modulas: {a%b}");
+}
+}
