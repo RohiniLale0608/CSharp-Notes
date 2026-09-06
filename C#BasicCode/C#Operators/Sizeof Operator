@@ -1,0 +1,29 @@
+using System;
+public class Sizeof()
+{
+ static void Main()
+{
+
+ //int type
+ Console.WriteLine(sizeof(int));
+ Console.WriteLine(sizeof(byte));
+ Console.WriteLine(sizeof(sbyte));
+ Console.WriteLine(sizeof(short));
+ Console.WriteLine(sizeof(ushort));
+ Console.WriteLine(sizeof(long));
+ Console.WriteLine(sizeof(uint));
+ Console.WriteLine(sizeof(ulong));
+
+ //decimal type
+ Console.WriteLine(sizeof(decimal));
+ Console.WriteLine(sizeof(double));
+ Console.WriteLine(sizeof(float));
+
+ //bool type 
+  Console.WriteLine(sizeof(bool));
+ //char type
+ Console.WriteLine(sizeof(char));
+ Console.WriteLine("sizeof(Guid)");
+ Console.WriteLine("sizeof(DateTime)");
+ }
+}
