@@ -1,0 +1,10 @@
+using System;
+class Ternary()
+{
+static void Main()
+{
+int age = 20;
+string result = (age >= 18) ? "Adult" : "Minor";
+Console.WriteLine("You are: "+ result);
+}
+}
