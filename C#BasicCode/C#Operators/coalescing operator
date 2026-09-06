@@ -1,0 +1,11 @@
+using System;
+class CoalescingOpe
+{
+ static void Main()
+{
+ string name = null;
+ // if name is null,"Unknown" will be used
+string displayName = name ?? "Rohini";
+Console.WriteLine("Name:"+ displayName);
+}
+}
