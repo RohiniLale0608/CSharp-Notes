@@ -1,0 +1,12 @@
+using System;
+class IfCondition()
+{
+ static void Main()
+{
+ int age = 23;
+ if(age >= 18)
+{
+ Console.WriteLine("You are an adult");
+}
+}
+}
