@@ -1,0 +1,24 @@
+// Nestedifelse is a if inside if statement
+using System;
+class Nestedifelse()
+{
+static void Main()
+{
+ int age = 20;
+ bool hasID = true;
+if(age>= 21)
+{
+ if(hasID)
+{
+ Console.WriteLine("you are allowed to enter.");
+}
+else
+{
+ Console.WriteLine("you must carry an ID.");
+}
+}
+else{
+Console.WriteLine("you are not allowed to enter.");
+}
+}
+}
