@@ -1,0 +1,22 @@
+using System;
+class WhileDemo2
+{
+ static void Main()
+{
+ Console.Write("Enter a number:  ");
+ int num = int.Parse(Console.ReadLine());
+ int temp = num,rev = 0;
+ while(temp > 0)
+{
+ int digit = temp%10;
+ rev = rev*10 + digit;
+ temp /= 10;
+}
+if(rev == num)
+{
+ Console.WriteLine($"{num} is a Palindrome");
+}
+else
+ Console.WriteLine($"{num} is not a Palindrome");
+}
+}
